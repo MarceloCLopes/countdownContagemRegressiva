@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <title>CountDown</title>
+</head>
+
+<body>
+  <header>
+    <h1>CountDown - Contagem Regressiva</h1>
+  </header>
+  <div class="content">
+    <div class="counter"></div>
+    <input type="number" id="seconds" placeholder="Seconds">
+    <div class="buttons">
+      <button class="btn start" id="start" value="1" onclick="check(this)">Start</button>
+      <button class="btn start" id="continue" value="1" onclick="check(this)">Continue</button>
+      <button class="btn stop" id="stop" value="0" onclick="check(this)">Stop</button>
+      <button class="btn start" id="ok" onclick="toSubmit()">Submit</button>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
